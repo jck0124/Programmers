@@ -19,8 +19,8 @@ package solution.lv01.q_87389;
 public class SolutionMain {
 	public static void main(String[] args) {
 
-		Solution s = new Solution();
-		System.out.println(s.solution(17));
+		// Solution s = new Solution();
+		// System.out.println(s.solution(10));
 		
 	}
 }
