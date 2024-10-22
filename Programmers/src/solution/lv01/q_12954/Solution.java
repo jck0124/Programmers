@@ -1,4 +1,4 @@
-package solution.lv01.q_12954_check;
+package solution.lv01.q_12954;
 
 // 오답  - 오버플로우 
 // 자바는 피연산자에 데이터타입에 따라 연산이 이루어짐

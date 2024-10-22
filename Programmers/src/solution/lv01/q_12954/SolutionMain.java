@@ -1,4 +1,4 @@
-package solution.lv01.q_12954_check;
+package solution.lv01.q_12954;
 
 import java.util.Arrays;
 
