@@ -1,12 +1,5 @@
-package kakao;
-import java.util.Arrays;
+package solution.lv01.q_258712;
 
-/*
-	String[] friends = {"muzi", "ryan", "frodo", "neo"};
-	String[] gifts =  {"muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", 
-						"ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"
-						};
-*/
 class Solution {
 	public int solution(String[] friends, String[] gifts) {
 		int answer = 0;
@@ -20,8 +13,7 @@ class Solution {
 		// 이번달에 두 사람이 주고 받은 내역이 있다면, 두 사람 사이에 선물을 더 많이 준 사람이 다음달에 선물을 하나 더 받는다 -> giftsExchange != 0이라면 giftsCount++ 
 		// 만약 이번달에 주고 받은 적이 없거나, 같은 수를 주고 받았다면 다음달에 선물지수가 더 큰 사람이 하나 더 받는다 
 		// 선물 지수도 같다면  다음달에 선물을 주고 받지 않는다
-		
-		
+
 		
 		// giftsExchange - 선물 주고 받은 횟수
 		String[] giftsSlice; // gifts를 " "을 기준으로 나눠서 담을 배열
@@ -100,14 +92,12 @@ class Solution {
 			}
 		}
 		
-		
 		int max = 0;
 		for(int i = 0; i < giftsCount.length; i++) {
 			if(giftsCount[i] > max) {
 				max = giftsCount[i];
 			}
 		}
-		
 		
 //		System.out.print("giftsExchange : ");
 //		System.out.println(Arrays.deepToString(giftsExchange));

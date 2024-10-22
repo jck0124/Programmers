@@ -1,6 +1,9 @@
-package kakao;
+package solution.lv01.q_258712;
 
-/*
+/*	
+  	
+  	https://school.programmers.co.kr/learn/courses/30/lessons/258712
+ 
 	선물을 직접 전하기 힘들 때 카카오톡 선물하기 기능을 이용해 축하 선물을 보낼 수 있습니다. 
 	당신의 친구들이 이번 달까지 선물을 주고받은 기록을 바탕으로 다음 달에 누가 선물을 많이 받을지 예측하려고 합니다.
 	
@@ -44,7 +47,7 @@ package kakao;
 */
 
 
-public class SolutionAnswer {
+public class SolutionMain {
 	public static void main(String[] args) {
 		
 		String[] friends = {"muzi", "ryan", "frodo", "neo"};
