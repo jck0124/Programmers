@@ -1,4 +1,4 @@
-package solution.lv02.q_258711;
+package solution.lv02.q_258711_yet;
 
 import java.util.Arrays;
 
